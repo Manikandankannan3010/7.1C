@@ -42,6 +42,7 @@ pipeline {
             steps {
                 echo 'Production Stage: Deploying final application to production server using AWS EC2'
             }
-        }
+        } 
+    }
     }
 }
