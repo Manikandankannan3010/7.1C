@@ -25,7 +25,6 @@ pipeline {
                 echo 'Security Scan Stage: Scanning vulnerabilities using OWASP Dependency-Check'
             }
         }
-    }
 
         stage('Deploy to Staging') {
             steps {
@@ -43,7 +42,5 @@ pipeline {
             steps {
                 echo 'Production Stage: Deploying final application to production server using AWS EC2'
             }
-        } 
+        }
     }
-    
-
