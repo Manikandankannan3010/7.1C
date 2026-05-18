@@ -25,6 +25,7 @@ pipeline {
                 echo 'Security Scan Stage: Scanning vulnerabilities using OWASP Dependency-Check'
             }
         }
+    }
 
         stage('Deploy to Staging') {
             steps {
